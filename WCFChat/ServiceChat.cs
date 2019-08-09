@@ -19,7 +19,7 @@ namespace WCFChat
                 OperationContext = OperationContext.Current
             };
             nextId++;
-            SendMessage(user.Name + " подключился к чату!", 0);
+            SendMessage("" + user.Name + " подключился к чату!", 0);
 
             users.Add(user);
             return user.ID;
@@ -31,7 +31,7 @@ namespace WCFChat
             if (user != null)
             {
                 users.Remove(user);
-                SendMessage(user.Name + "покинул чат!", 0);
+                SendMessage(" " + user.Name + " покинул чат!", 0);
             }
         }
 
@@ -43,7 +43,7 @@ namespace WCFChat
                 var sender = users.FirstOrDefault(u => u.ID == id);
                 if (sender != null)
                 {
-                    answer += ": " + user.Name + " ";
+                    answer += ": " + sender.Name + " ";
                 }
                 answer += msg;
 

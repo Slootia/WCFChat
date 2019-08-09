@@ -1,0 +1,16 @@
+﻿<Window x:Class="WCFChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WCFChatClient"
+        mc:Ignorable="d"
+        Title="WCF Chat" Height="460" Width="700" Loaded="Window_Loaded" Closing="Window_Closing" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="30" Margin="140,10,0,0" TextWrapping="Wrap" Text="Имя юзера" VerticalAlignment="Top" Width="534" GotFocus="TbUserName_GotFocus"/>
+        <Button x:Name="btConnect" Content="Присоедениться" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="125" Height="30" Click="BtConnect_Click"/>
+        <ListBox x:Name="lbChat" HorizontalAlignment="Left" Height="285" Margin="10,45,0,0" VerticalAlignment="Top" Width="664"/>
+        <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="74" Margin="10,335,0,0" TextWrapping="Wrap" Text="Введите сообщение" VerticalAlignment="Top" Width="664" KeyDown="TbMessage_KeyDown" GotFocus="TbMessage_GotFocus"/>
+
+    </Grid>
+</Window>
