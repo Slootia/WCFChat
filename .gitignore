@@ -1,0 +1,16 @@
+
+\.vs/WCFChat/v16/\.suo
+
+\.vs/WCFChat/v16/Server/sqlite3/db\.lock
+
+\.vs/WCFChat/v16/Server/sqlite3/storage\.ide
+
+\.vs/WCFChat/v16/Server/sqlite3/storage\.ide-shm
+
+\.vs/WCFChat/v16/Server/sqlite3/storage\.ide-wal
+
+WCFChat/obj/Debug/DesignTimeResolveAssemblyReferencesInput\.cache
+
+WCFChat/obj/Debug/WCFChat\.csproj\.CoreCompileInputs\.cache
+
+WCFChat/obj/Debug/WCFChat\.csprojAssemblyReference\.cache
