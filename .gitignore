@@ -14,3 +14,13 @@ WCFChat/obj/Debug/DesignTimeResolveAssemblyReferencesInput\.cache
 WCFChat/obj/Debug/WCFChat\.csproj\.CoreCompileInputs\.cache
 
 WCFChat/obj/Debug/WCFChat\.csprojAssemblyReference\.cache
+
+*.cache
+
+WCFChat/bin/Debug/
+
+WCFChat/obj/Debug/
+
+WCFHost/bin/Debug/
+
+WCFHost/obj/Debug/
